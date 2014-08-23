@@ -15,8 +15,14 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="$(MSBuildThisFileDirectory)CL_Provas.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CL_TabelaAvaliacao.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CL_TabelaAvalicaoDet.cs" />
+=======
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\CL_Aluno.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\CL_Grupo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\CL_Turma.cs" />
+>>>>>>> origin/master
   </ItemGroup>
 </Project>
