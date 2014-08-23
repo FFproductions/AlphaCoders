@@ -15,6 +15,5 @@ namespace WPTrainerAssistant.Classes
         public DateTime DataDeNascimento { get; set; }
         public string Comentario { get; set; }
 
-  
     }
 }

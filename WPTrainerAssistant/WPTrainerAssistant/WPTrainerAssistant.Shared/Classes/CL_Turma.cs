@@ -12,5 +12,6 @@ namespace WPTrainerAssistant.Classes
         public string Comentario { get; set; }
         public List<CL_Aluno> Lista_Alunos { get; set; }
 
+
     }
 }

@@ -10,5 +10,6 @@ namespace WPTrainerAssistant.Classes
         public string Nome { get; set; }
         public string Comentario { get; set; }
         public List<CL_Turma> Lista_Turmas { get; set; }
+
     }
 }
