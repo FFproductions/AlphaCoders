@@ -6,5 +6,8 @@ namespace WPTrainerAssistant
 {
     class CL_TabelaAvalicaoDet
     {
+
+
+
     }
 }

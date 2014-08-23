@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPTrainerAssistant.Windows"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPTrainerAssistant.WindowsPhone", "WPTrainerAssistant\WPTrainerAssistant.WindowsPhone\WPTrainerAssistant.WindowsPhone.csproj", "{1FCB95CB-DE94-4416-B55C-9DB52CFF931D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DF0DF45-47D4-4EBB-8711-D9F1A1A69688}"
+	ProjectSection(SolutionItems) = preProject
+		Graph1.dgml = Graph1.dgml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		WPTrainerAssistant\WPTrainerAssistant.Shared\WPTrainerAssistant.Shared.projitems*{3b7ac1c0-741c-4cbd-a187-f793670cd578}*SharedItemsImports = 13
