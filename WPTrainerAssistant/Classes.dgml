@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 Namespace=WPTrainerAssistant Type=CL_TabelaAvalicaoDet)" Category="CodeSchema_Class" Bounds="-9531.08522742638,-10107.0106127128,156.639999999999,26" CodeSchemaProperty_IsInternal="True" CommonLabel="CL_TabelaAvalicaoDet" Icon="Microsoft.VisualStudio.Class.Internal" Label="CL_TabelaAvalicaoDet" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///d:/gitprojects/alphacoders/wptrainerassistant/wptrainerassistant/wptrainerassistant.shared/classes/cl_tabelaavalicaodet.cs StartLineNumber=6 StartCharacterOffset=4 EndLineNumber=6 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="(@1 Namespace=WPTrainerAssistant.Classes Type=CL_Grupo)" Category="CodeSchema_Class" Bounds="-10328.8465243439,-10129.8440392616,92.3400000000001,26" CodeSchemaProperty_IsInternal="True" CommonLabel="CL_Grupo" Icon="Microsoft.VisualStudio.Class.Internal" Label="CL_Grupo" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///d:/gitprojects/alphacoders/wptrainerassistant/wptrainerassistant/wptrainerassistant.shared/classes/cl_grupo.cs StartLineNumber=6 StartCharacterOffset=4 EndLineNumber=6 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@2" Category="CodeSchema_Class" Bounds="-10330.0000216707,-9969.87151595305,90.3166666666657,26" CodeSchemaProperty_IsInternal="True" CommonLabel="CL_Aluno" Icon="Microsoft.VisualStudio.Class.Internal" Label="CL_Aluno" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///D:/GitProjects/AlphaCoders/WPTrainerAssistant/WPTrainerAssistant/WPTrainerAssistant.Shared/Classes/CL_Aluno.cs StartLineNumber=6 StartCharacterOffset=4 EndLineNumber=6 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@3" Category="CodeSchema_Class" Bounds="-9945.32495519365,-10108.7386404683,93.9300000000003,26" CodeSchemaProperty_IsInternal="True" CommonLabel="CL_Provas" Icon="Microsoft.VisualStudio.Class.Internal" Label="CL_Provas" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///d:/gitprojects/alphacoders/wptrainerassistant/wptrainerassistant/wptrainerassistant.shared/classes/cl_provas.cs StartLineNumber=6 StartCharacterOffset=4 EndLineNumber=6 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Class" Bounds="-9746.33494262023,-10107.2569611338,143.989999999998,26" CodeSchemaProperty_IsInternal="True" CommonLabel="CL_TabelaAvaliacao" Icon="Microsoft.VisualStudio.Class.Internal" Label="CL_TabelaAvaliacao" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///d:/gitprojects/alphacoders/wptrainerassistant/wptrainerassistant/wptrainerassistant.shared/classes/cl_tabelaavaliacao.cs StartLineNumber=6 StartCharacterOffset=4 EndLineNumber=6 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Class" Bounds="-10329.8630673177,-10058.0908424664,92.753333333334,26" CodeSchemaProperty_IsInternal="True" CommonLabel="CL_Turma" Icon="Microsoft.VisualStudio.Class.Internal" Label="CL_Turma" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///D:/GitProjects/AlphaCoders/WPTrainerAssistant/WPTrainerAssistant/WPTrainerAssistant.Shared/Classes/CL_Turma.cs StartLineNumber=7 StartCharacterOffset=4 EndLineNumber=7 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="Avaliacoes" Category="Category1" Bounds="-10089.7980041782,-9967.0116259917,75.4566666666651,25.9599999999991" UseManualLocation="True" />
+    <Node Id="CondicaoFisica" Category="Category1" Bounds="-10334.0642817458,-9889.38346636875,98.3199999999997,25.9599999999991" UseManualLocation="True" />
+    <Node Id="Resultados" Category="Category1" Bounds="-9900.90636530378,-9968.47270419443,77.6066666666666,25.9599999999991" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1 Namespace=WPTrainerAssistant.Classes Type=CL_Grupo)" Target="@5" Bounds="-10283.2384526867,-10103.84375,0.414930668721354,36.7535031758416" />
+    <Link Source="@2" Target="Avaliacoes" Bounds="-10239.6834635417,-9956.32023040693,140.88612890267,1.71859761489759" />
+    <Link Source="@2" Target="CondicaoFisica" Bounds="-10284.8872137976,-9943.87109375,0.0353221386012592,45.4876300946871" />
+    <Link Source="@3" Target="Avaliacoes" Bounds="-10031.3733191714,-10082.73828125,118.912816394617,109.627161571658" />
+    <Link Source="@4" Target="(@1 Namespace=WPTrainerAssistant Type=CL_TabelaAvalicaoDet)" Bounds="-9602.34533203125,-10094.1768321794,62.2601101617183,0.0691859544458566" />
+    <Link Source="@4" Target="@3" Bounds="-9842.39457178847,-10095.3681841623,96.0592397572182,0.63524291763315" />
+    <Link Source="@5" Target="@2" Bounds="-10284.5038081832,-10032.0908424664,0.81767729983585,53.22081074577" />
+    <Link Source="@5" Target="Avaliacoes" Bounds="-10250.4487021456,-10032.0908424664,157.017047931793,61.7846192517882" />
+    <Link Source="Avaliacoes" Target="Resultados" Bounds="-10014.3414908854,-9955.12480109579,104.435396698698,0.803696106731877" />
+  </Links>
+  <Categories>
+    <Category Id="Category1" Label="Category 1" Background="#FFE51400" IsTag="True" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Is Internal" Description="Flag to indicate the method is 'Internal'" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(1fcb95cb-de94-4416-b55c-9db52cff931d.OutputPathUri)" />
+    <Alias n="2" Id="(@1 Namespace=WPTrainerAssistant.Classes Type=CL_Aluno)" />
+    <Alias n="3" Id="(@1 Namespace=WPTrainerAssistant Type=CL_Provas)" />
+    <Alias n="4" Id="(@1 Namespace=WPTrainerAssistant Type=CL_TabelaAvaliacao)" />
+    <Alias n="5" Id="(@1 Namespace=WPTrainerAssistant.Classes Type=CL_Turma)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Category 1" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="#FFE51400" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="1fcb95cb-de94-4416-b55c-9db52cff931d.OutputPathUri" Value="file:///D:/GitProjects/AlphaCoders/WPTrainerAssistant/WPTrainerAssistant/WPTrainerAssistant.WindowsPhone/bin/Debug/WPTrainerAssistant.WindowsPhone.exe" />
+  </Paths>
+</DirectedGraph>
